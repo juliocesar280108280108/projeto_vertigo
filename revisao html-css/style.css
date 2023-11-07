@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   scroll-padding-top: 5rem;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+header {
+    background: #263D42;
+    height: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 10rem;
+}
+
+header a:hover {
+    background: #514F59;
+    transform:scale(1.1);
+    transition: tranform .4s;
+}
+
+section{
+    border: 1px solid black;
+    height:calc(100vh - 5rem);
+    padding: 3rem;;
+
+}
+
+#listas {
+    margin-top: 5rem;
+}
+
+h2{
+    text-align: center;
+}
